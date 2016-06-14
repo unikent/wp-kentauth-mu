@@ -8,6 +8,8 @@
  * @package SimpleSAMLphp
  */
 
+require_once dirname(dirname(__FILE__)).'/cert/config.php';
+
 // SSP is loaded as a separate project
 if (file_exists(dirname(dirname(__FILE__)).'/vendor/autoload.php')) {
     require_once dirname(dirname(__FILE__)).'/vendor/autoload.php';

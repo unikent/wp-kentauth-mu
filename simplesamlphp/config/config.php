@@ -75,7 +75,7 @@ $config = array(
      * metadata listing and diagnostics pages.
      * You can also put a hash here; run "bin/pwgen.php" to generate one.
      */
-    'auth.adminpassword' => 'GQh8oa9ElSwR',
+    'auth.adminpassword' => KENT_SIMPLE_SAML_ADMIN_PSWD,
     'admin.protectindexpage' => false,
     'admin.protectmetadata' => false,
 
@@ -87,7 +87,7 @@ $config = array(
      * A possible way to generate a random salt is by running the following command from a unix shell:
      * tr -c -d '0123456789abcdefghijklmnopqrstuvwxyz' </dev/urandom | dd bs=32 count=1 2>/dev/null;echo
      */
-    'secretsalt' => 'C8wMUGQUh0ZOIJv3vOmclkOLS1Oc4078Gc0MuRfTBMlPosSTK2XrnP3RN6f3tYZo',
+    'secretsalt' => KENT_SIMPLE_SAML_SECRET_SALT,
 
     /*
      * Some information about the technical persons running this installation.
